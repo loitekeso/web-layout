@@ -1,0 +1,100 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.job-title {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.user-profile {
+  padding: 3%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.profile-img {
+  text-align: center;
+}
+.profile-img img {
+  width: 80%;
+  height: 100%;
+}
+.skill-block {
+  border-bottom: 1px solid #e6e9ec;
+  padding: 10px;
+  color: #909294;
+}
+
+.social-block {
+  margin-top: 6%;
+  margin-left: 7%;
+}
+
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/*
+   Multicoloured Hover Variations
+*/
+#social-gh:hover {
+  color: #333333;
+}
+
+#social-li:hover {
+  color: #0077b5;
+}
+
+#social-fb:hover {
+  color: #3b5998;
+}
+
+#social-tw:hover {
+  color: #4099ff;
+}
+
+#social-ig:hover {
+  color: #c13584;
+}
+
+#repo-block {
+  margin-top: 4%;
+  padding: 10px;
+}
+.email-footer {
+  margin-left: 10px;
+  color: #333333;
+}
